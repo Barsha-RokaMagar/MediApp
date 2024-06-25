@@ -34,18 +34,20 @@
         android:layout_marginTop="8dp"
         android:textStyle="bold"/>
     <EditText
+        android:id="@+id/usernamelogin"
         android:layout_width="300dp"
         android:layout_height="45dp"
-        android:hint="Enter your email"
+        android:hint="Enter username"
         android:gravity="center"
         android:background="@drawable/editext_border"
         android:layout_margin="10dp"
         android:layout_gravity="center"/>
     <EditText
+        android:id="@+id/passwordlogin"
         android:layout_width="300dp"
         android:layout_height="45dp"
         android:gravity="center"
-        android:hint="Enter your password"
+        android:hint="Enter password"
         android:background="@drawable/editext_border"
         android:layout_margin="10dp"
         android:layout_gravity="center"/>
@@ -93,7 +95,7 @@
         android:layout_margin="10dp"
         android:layout_gravity="center"/>
     <TextView
-        android:id="@+id/loginlink"
+        android:id="@+id/signuplink"
         android:layout_width="300dp"
         android:layout_height="55dp"
         android:layout_margin="10dp"
